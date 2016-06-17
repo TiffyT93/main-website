@@ -1,0 +1,101 @@
+ /* reset styles */
+article, img, body, dd, div, dl, dt, figure, footer, header, h1, h2, p, section, table, tbody, td, tfoot, th, thead, tr, form ul {
+   	border: 0;
+   	padding: 0;
+   	margin: 0;
+}
+   /* body and page container */
+a:link {
+	color: black;
+}
+a:visited {
+    color: red;
+}
+   /* skip navigation link */
+p.skipnavigation a {
+   	position: absolute;
+   	left: -1000px;
+}
+p.skipnavigation a:focus {
+	color: white;
+	background-color: black;
+	top: 0.2em;
+	left: 0.4em;
+	z-index: 2;
+}
+h1 {
+   background-color: white;
+   padding: 1em;
+   margin-right: 5em;
+   float: left;
+   overflow: auto;
+}
+h2 {
+   	padding: .5em 0em;
+   	width: 100%;
+}
+   /* main content */
+article {
+   	margin: 0 auto;
+    padding: 1em 4em;
+}
+article p {
+   	padding: 1em 1em;
+}
+img {
+    border: 2px solid black;
+}
+   /*footer section*/
+footer {
+   	padding: 0.6em;
+}
+footer p {
+   	margin: 0.4em;
+   	position: relative;
+   	top: 20em;
+}
+#footer{
+   clear:both;
+}
+   /* site navigation bar */
+nav.sitenavigation {
+   text-align: center;
+   background-color: black;
+   border-top: 5px solid white;
+   border-bottom: 5px solid white;
+   clear: both;
+}
+nav.sitenavigation li {
+   	display: inline-block;
+   	margin: 1em;
+   	background-color: black;
+      font-size: 1.3em;
+      line-height: .5em
+}
+nav.sitenavigation a:link {
+	text-decoration: none;
+	color: white;
+}
+nav.sitenavigation a:hover {
+	color: teal;
+}
+
+
+
+
+
+
+/* print styles */
+@media print {
+	body, h1, article, footer {
+		color: #000;
+		background-color: #fff;
+	}
+	body {
+		max-width: 100%;
+		border: 0;
+	}
+}
+@page {
+	margin:1in;
+}
