@@ -1,0 +1,41 @@
+body  {
+   background-color: white;
+}
+h1 {
+	font-size: 35px;
+	font-family: comic sans MS, times;
+	text-align: left;
+}
+p {
+	font-size: 20px;
+	font-family: tahoma, times;
+	text-align: center;
+}
+h2 {
+	font-family: comic sans MS, times;
+	text-align: center;
+}
+h3 {
+	font-family: tahoma, times;
+	color: black;
+}
+li {
+	font-family: tahoma, times;
+}
+dl {
+	font-family: tahoma, times;
+}
+td {
+	font-family: tahoma, times;
+}
+form {
+	font-family: tahoma, times;
+}
+#contact {
+   color: black;
+   border-top: 5px solid black;
+   border-bottom: 5px solid black;
+}
+.accent {
+	background-color: white;
+}
